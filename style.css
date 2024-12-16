@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    background-color:rgb(17, 17, 54);
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+}
+.parent{
+    box-shadow: 12px 12px green;
+    width: 200vh;
+    margin: 50px;
+    padding: 10px;
+    justify-content: center;
+    background-color:rgb(119, 119, 226);
+    box-shadow: 10px,10px,10px rgb(152, 43, 43);
+}
+.input-box{
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid blue;
+    border-radius: 5px;
+
+}
+.button{
+    color: white;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(75, 75, 240);
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 5px;
+
+}
+.button:hover{
+    height: 45px;
+    width: 80px;
+    background-color: #c758c5;
+    font-size: large;
+    color: rgb(73, 31, 178);
+    cursor: pointer;
+    
+}
+#label-1{
+    height: 30px;
+    
+}
+#roll-no{
+    width: 245px;
+}
+#log-2{
+    margin-top: -5px;
+}
+#email-add{
+    width: 245px;
+
+}
+#phone-no{
+    width: 220px;
+
+}
+#pr-add{
+    height: 50px;
+    width: 250px;
+}
+#course-name{
+    width: 200px;
+}

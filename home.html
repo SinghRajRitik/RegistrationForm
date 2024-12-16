@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="submit">
+<div class="main">
+    <class class="parent">
+   <h1 id="heading">Registration Form</h1>
+   <label id="label-1"  for="text">UserName:</label>
+   <input type="text" placeholder="First Name" class="input-box" id="first">
+   <input type="text" placeholder="Last Name" class="input-box" id="second">
+   <br>
+   <label for="text"> RollNo:</label>
+   <input type="number" placeholder="University Roll-No" id="roll-no" class="input-box">
+   <br>
+   <form>
+    <label id="log-1">Gender:   </label>
+    <label id="gen">
+        <input type="radio" name="gender" value="male">Male
+    </label>
+    <label>
+        <input type="radio" name="gender" value="Female">Female
+    </label>
+    <label>
+        <input type="radio" name="gender" value="Others">Others
+    </label>
+   </form>
+ <br>
+
+<label for="age" id="log-2">
+    Age:<input type="number" placeholder="age" class="input-box">
+</label>
+<br>
+<label for="email">
+    Email:<input type="email" placeholder="email Address" class="input-box" id="email-add">
+</label>
+<br>
+<label for="phone-No">
+    MobileNo:<input type="text" class="input-box" id="phone-no" placeholder="mobile Number">
+</label>
+<br>
+<!-- <address> -->
+    <label for="address">
+        Address:<input type="text" class="input-box" placeholder="Permanent-Address" id="pr-add">
+    </label>
+<!-- </address> -->
+<br>
+<label for="course-name">
+    Course-Enrolled: <input type="text" placeholder="course-name" class="input-box" id="course-name">
+</label>
+<br>
+<button class="button" onclick="submitForm()">Submit</button>
+
+</form>
+
+
+
+
+
+    </div>    
+</div>
+
+
+
+
+
+<script src="DBlogic.js"></script>   
+</body>
+</html>
